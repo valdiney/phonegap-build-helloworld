@@ -1,0 +1,161 @@
+body {
+
+	font-family:arial;
+	margin:0;
+}
+#whapper {
+
+	width:100%;
+	height:auto;
+	min-height:200px;
+	margin:auto;
+
+}
+
+header {
+
+	width:auto;
+	height:auto;
+	background:#90b2bc;
+	color:black;
+	text-align:center;
+	padding-top:10px;
+	border-bottom:1px solid black;
+	background-image:-webkit-linear-gradient(#90b2bc,#85979d);
+	
+}
+h1 {
+
+	font-size:18px;
+	text-shadow:white 1px 1px 1px;
+	-webkit-animation:animada 1.5s linear 100;
+}
+
+table {
+	margin-top:10px;
+}
+#orcamento {
+	border:1px solid black;
+	background:#e1dcdc;
+}
+#orcamento table {
+	margin:auto;
+}
+#orcamento input {
+
+	width:80%;
+	padding:10px;
+	box-shadow:silver 1px 1px 2px inset;
+	border:1px solid black;
+	font-size:19px;
+
+}
+#orcamento button {
+
+	padding:10px;
+	background:#333333;
+	color:white;
+	border:1px solid black;
+	margin-bottom:10px;
+}
+
+#orcamento button:active {
+
+	background:black;
+
+}
+
+.saidaDe_resultados {
+
+	width:auto;
+	padding:10px;
+	margin-top:10px;
+	display:block;
+	background:white;
+	box-shadow:gray 1px 1px 2px inset;
+
+}
+.whapper_resultado {
+
+    width:100%;
+	background:silver;
+	margin:auto;
+	border-bottom:1px solid black;
+	border-top:1px solid black;
+	background-image:-webkit-linear-gradient(#f1f1f1,silver);
+	padding-top:10px;
+	padding-bottom:10px;
+
+}
+small {
+	opacity:0.60;
+}
+#relatorio {
+	text-decoration:none;
+	display:block;
+	padding:5px;
+	text-align:center;
+	background:#333333;
+	color:#8eaeb7;
+	display:none;
+	
+}
+#relatorio:active {
+	opacity:0.60;
+}
+#whapper_relatorio {
+   display:none;
+}
+
+
+
+ @-webkit-keyframes animada{
+ 	
+	    100% {
+          text-shadow:white 1px 1px 1px;
+		}
+
+		10% {
+          text-shadow:white 1px 1px 10px;
+		}
+      }
+
+
+
+#icone_trabalhador {
+	display:block;
+	
+	z-index:100;
+	position:absolute;
+	-webkit-animation:icone_animado 1.5s linear 5000;
+	margin-top:-55px;
+	border-radius:40px;
+	margin-left:10px;
+	display:none;
+
+}
+
+
+
+@-webkit-keyframes icone_animado {
+ 	
+	   20% {
+          background:white;
+          border-radius:50px;
+          
+		}
+      }
+
+
+
+
+  @media only screen and (max-width: 400px) {
+
+     #icone_trabalhador {
+     	display:none!important;
+
+     }
+
+
+
+  }

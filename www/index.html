@@ -28,66 +28,77 @@
     </head>
     <body>
         <div class="app">
-            <h1>Descolamento de retina</h1>
-             <center><span>Por Valdiney França</span></center>
-            <section>
-                <img src="img/olho.gif"/>
-                 <p>
-                    Descolamento de retina é uma enfermidade do olho caracterizada pela separação das camadas foto-sensível (camada H na figura) e de suporte e nutrição da retina (camada F). Usualmente causada por trauma, ou por uma existência prévia de uma pequena ruptura em H por onde o fluido intra-ocular (parte A da figura) entra e força a separação das camadas F e H, ou pela sucção exercida pelo fluido A na parte foto-sensível da retina, o que é mais comum em pessoas idosas.
-                 </p>
+            <div id="whapper">
+    <header>
+        <h1>HELPMETRAGEM BETA 0.1</h1>
+    </header>
+  <img src="img/icone_trabalhador.png" width="50" id="icone_trabalhador"/>
+    <form id="orcamento">
+    <br>
+      <table>
+        <tr>
+            <td><label for="comprimento">Comprimento:</label></td>
+        </tr>
+        <tr>
+           <td><input type="text" id="comprimento"/></td>
+        </tr>
+        <tr>
+           <td><label for="largura">Largura:</label></td>
+        </tr>
+        <tr>
+           <td><input type="text" id="largura"/></td>
+        </tr>
 
-            </section>
-              <h1>Sintomas</h1>
-            <section>
-                
-                <p>
-                    Acompanhada de vários sintomas como flashes de luzes, manchas escuras se movendo, e perda parcial de visão. As manchas escuras são conhecidas como moscas volantes. Sua percepção não determina o Descolamento de retina, o que realmente o determina é seu aumento desenfreado seguido do surgimento de pequenas manchas, em tom roxo, nas regiões periféricas da visão.
-                </p>
-            </section>
+        <tr>
+       <td><label for="valorpiso">Preço do piso:</label></td>
+    </tr>
+    <tr>
+           <td><input type="text" id="valorpiso"/></td>
+        </tr>
 
-             <h1>Tratamento</h1>
-            <section>
-                
-                <p>
-                    Se não tratada imediatamente geralmente leva a perda total de visão.
-
-                  Um oftalmologista deve ser consultado o mais rápido possível. O tratamento pode incluir a utilização de laser, e várias técnicas cirúrgicas específicas
-
-                 <b>Laser:</b> Nos casos muito iniciais podemos realizar apenas o bloqueio periférico pelo Laser. O Laser funciona como uma solda orgânica. Ele provoca queimaduras na retina e nos tecidos adjacentes que quando cicatrizam se aderem uns aos outros.
-                </p>
-                <p>
-                    <b>Pneumo-retinopexia:</b>
-
-Os descolamentos em fase inicial podem ser tratados injetando-se uma bolha de gás que expulsa o líquido sub-retiniano e reaplica a retina. O tratamento é complementado com aplicações de Laser ou tratamento com o crio cautério.
-
-Retinopexia (Cirurgia Convencional)
-
-A técnica mais comum de operar o descolamento da retina é chamada de retinopexia com introflexão escleral. Fixa-se ao redor do olho, sob os músculos, uma estrutura de apoio (chamada cientificamente de órtese), feita de silicone sólido (se assemelha a um pneu) para calçar a retina e criamos uma forte adesão usando o crio cautério.
-
-Vitrectomia
-
-As cirurgias de vitrectomia estão reservadas para os casos mais difíceis Fazemos três pequenas incisões no olho para trabalhar dentro do olho com micro-instrumentos.
-                </p>
-
-                <p>
-                    Quando realiza-se a vitrectomia , pode-se precisar da ajuda de um líquido pesado para expulsar o líquido sub-retiniano, o perfluoroctano. Às vezes é necessário preencher o olho com óleo de silicone ou gases de longa permanência (SF6 ou C3F8) para manter a retina colada. O gás intra-ocular - e também o óleo de silicone - tendem a flutuar dentro do olho. Se usa essa característica física dos elementos para empurrar a retina para o seu lugar. Após a cirurgia o médico indicará qual a melhor posição de cabeça para obtermos o maior contato das bolhas de gás, ou óleo, com os defeitos da retina. Os gases são absorvidos naturalmente. O óleo de silicone poderá exigir a sua remoção cirúrgica
-                </p>
-
-                <p>
-                    <b>Prognóstico</b>
-
-Com as modernas técnicas de cirurgia conseguimos reaplicar a retina em quase 90% dos casos. Às vezes são necessárias várias cirurgias. Os primeiros 40 dias são cruciais. Siga rigorosamente a orientação do seu médico. O repouso e manutenção das posições de cabeça indicada fazem parte do tratamento. Mesmo com o pronto tratamento e retorno da retina a sua posição, costuma haver perda, ao menos parcial, da visão do olho afetado. Em alguns casos, infelizmente, o paciente evolui com cegueira ou visão subnormal. É importante lembrar que o pronto atendimento favorece a melhor recuperação.
+    <tr>
+       <td><label for="preco_argamassa">Preço da argamassa:</label></td>
+    </tr>
+    <tr>
+       <td><input type="text" id="preco_argamassa"/></td>
+    </tr>
 
 
-<b>Anestesia:</b>
 
-a Anestesia é local. o paciente é levemente sedado, para que fique tranquilo e colabore durante o procedimento.
-                </p>
-            </section>
+
+     <tr>
+           <td><button type="button" id="consultar">Consultar</button></td>
+        </tr>
+        
+      </table>
+
+
+ 
+        
+
+    </form>
+
+ </div><!--end whapper-->
+
+
+ <div class="whapper_resultado">
+       <p class="saidaDe_resultados" id="saidaDe_resultados">Esperando o resultado...</p>
+       
+ </div><!--end whapper-->
+
+<a href="#" id="relatorio">Quero ver  o relatório de processamento</a>
+
+ <div class="whapper_resultado" id="whapper_relatorio">
+        <p class="saidaDe_resultados" id="saidaDe_resultados_relatorio">Aqui vai ser colocado o relatório de processamento</p>
+</div><!--end whapper-->
+
+ <center><small>Por Valdiney França</small></center>
+
             
         </div>
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/core.0.0.js"></script>
         <script type="text/javascript">
             app.initialize();
         </script>
