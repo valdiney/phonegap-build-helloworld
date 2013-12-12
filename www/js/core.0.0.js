@@ -31,7 +31,7 @@
 
       this.sacasDe_argamassa = function() {
             var calculando = Number(this.calculo_area()) / 4;
-                 return Math.ceil(calculando).toFixed(2);
+                 return Math.ceil(calculando);
        }
 
       this.gastosCom_Argamassa = function() {
@@ -73,7 +73,7 @@
                 string_real = ' R$ ';
 
 
-           var orcamento = new Classe_orcamento(comprimento, largura, valorDoPiso, precoDaArgamassa);
+            var orcamento = new Classe_orcamento(comprimento, largura, valorDoPiso, precoDaArgamassa);
                 saidaDe_resultados.innerHTML =  'Área de: <b>' + orcamento.calculo_area() + string_metros + '</b><br>';
                 saidaDe_resultados.innerHTML += 'Perimetro de <b>: ' + orcamento.perimetro() + string_metros + '</b><br>';
                 saidaDe_resultados.innerHTML += 'Compre <b>' + orcamento.metragemDoPiso() + '</b> caixas de pisos, cada caixa poderá cobrir <b>1</b> metro de  área!';
