@@ -21,7 +21,7 @@
       this.metragemDoPiso = function() {
             var calculando_quebra = Number(this.calculo_area()) * 10 / 100,
                 comDezPorcentoDe_quebra = calculando_quebra + Number(this.calculo_area());
-                 return Math.floor(comDezPorcentoDe_quebra).toFixed(2);
+                 return Math.floor(comDezPorcentoDe_quebra);
       }
 
    	  this.gastosCom_pisos = function() {
