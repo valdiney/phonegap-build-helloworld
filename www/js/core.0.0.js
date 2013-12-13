@@ -60,8 +60,8 @@
    var consultar = document.getElementById('consultar');
        consultar.onclick = function() {
 
-           var icone_trabalhador = document.getElementById('icone_trabalhador');
-               icone_trabalhador.style.display = 'block';
+           //var icone_trabalhador = document.getElementById('icone_trabalhador');
+               //icone_trabalhador.style.display = 'block';
             
            var comprimento = Number(document.getElementById('comprimento').value),
                largura = Number(document.getElementById('largura').value),
